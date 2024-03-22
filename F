@@ -60,7 +60,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MAHADI-143/BDMC/blob/main/.prox.txt').text
+    prox= requests.get('https://github.com/PinikMahid/pinik.mahid/blob/main/Aprove.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -114,7 +114,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/tonmoy404-cyber/FILE_X/blob/main/tonmoy_ua.txt').text
+        a=requests.get('https://github.com/PinikMahid/pinik.mahid/blob/main/Aprove.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -254,7 +254,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/ASRAF-404-XD/Approved/blob/main/approved.txt').text
+    httpCaht = requests.get('https://github.com/PinikMahid/pinik.mahid/blob/main/Aprove.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
